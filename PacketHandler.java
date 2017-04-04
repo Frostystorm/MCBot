@@ -21,16 +21,6 @@ public class PacketHandler {
         if(event.getPacket() instanceof ServerJoinGamePacket) {
             //sendMessage("/p", false);	                	
         } 
-//        else if(event.getPacket() instanceof ServerBlockChangePacket) {
-//        	
-//        	BlockLogger.blockChange(event);
-//        	        	
-//        }
-//        else if(event.getPacket() instanceof ServerBlockValuePacket) {
-//        	
-//        	BlockLogger.blockValueChange(event);
-//
-//        }
 //        else if(event.getPacket() instanceof ServerPlayerListEntryPacket) {
 //        	
 //            if(((ServerPlayerListEntryPacket) event.getPacket()).getAction() == PlayerListEntryAction.ADD_PLAYER){
