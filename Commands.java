@@ -105,11 +105,7 @@ public class Commands {
     	ChatLogger.writePMToFile("PM From "+user+": "+message);
     }
     
-    
-    public static void logblocks(String blockID, String blockData, String xCoord, String yCoord, String zCoord){ //Called when a block near the bot is changed.
-        //MCBotMain.sendMessage("/pm "+blockLogPlayer+" Block ID: "+blockID+", Block Data: "+blockData+", Coords: ("+xCoord+", "+yCoord+", "+zCoord+")");
-    }
-    
+        
     public static void loglotto(String winner, String pot, String winnerTickets){
     	LottoHandler.newLotto(winner, pot, winnerTickets);
     }
