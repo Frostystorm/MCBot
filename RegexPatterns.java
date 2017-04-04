@@ -15,7 +15,6 @@ public class RegexPatterns {
     public static Pattern p_stop = Pattern.compile("^From ([*_A-Za-z0-9]+): !stop$");
     public static Pattern p_calc = Pattern.compile("^From ([*_A-Za-z0-9]+): !calc ([0-9.-]+)([+\\-\\*/])([0-9.-]+)$");
     public static Pattern p_shout = Pattern.compile("^From ([*_A-Za-z0-9]+): !shout (.+)$");
-    public static Pattern p_togglelogblock = Pattern.compile("^From ([*_A-Za-z0-9]+): !logblocks$");
 
     
     //Generic Regex 
